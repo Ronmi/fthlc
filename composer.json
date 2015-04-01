@@ -1,0 +1,21 @@
+{
+    "name": "ronmi/fthlc",
+    "description": "Simple but fast PHP framework",
+    "authors": [
+        {
+            "name": "ronmi",
+            "email": "ronmi.ren@gmail.com"
+        }
+    ],
+    "require": {
+        "corneltek/pux": "*",
+        "corneltek/lazyrecord": "*",
+	"corneltek/cliframework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FTHLC\\": "src",
+            "FTHLCTest\\": "test"
+        }
+    }
+}
